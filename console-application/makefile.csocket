@@ -1,0 +1,4 @@
+ClientSocket:
+	gcc	-c	src/ClientSocket.c
+	gcc		ClientSocket.o -o ClientSocket
+	rm *.o	

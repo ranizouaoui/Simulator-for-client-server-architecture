@@ -1,0 +1,5 @@
+Client:
+	gcc	-c	src/Client.c
+	gcc -c	src/Handlers_Cli.c
+	gcc		Client.o Handlers_Cli.o -o Client
+	rm *.o	

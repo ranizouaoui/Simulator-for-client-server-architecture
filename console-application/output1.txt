@@ -1,0 +1,3 @@
+ New message received: 3 
+ Process identifier : 18413 
+ SIGUSR1 has been received

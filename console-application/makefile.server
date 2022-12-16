@@ -1,0 +1,5 @@
+Server:
+	gcc	-c	src/Server.c
+	gcc -c	src/Handlers_Serv.c
+	gcc		Server.o Handlers_Serv.o -o Server
+	rm *.o 

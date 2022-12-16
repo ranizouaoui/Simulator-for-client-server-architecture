@@ -1,0 +1,5 @@
+ServerSocket:
+	gcc	-c	src/ServerSocket.c
+	gcc -c	src/Handlers_Serv.c
+	gcc		ServerSocket.o Handlers_Serv.o -o ServerSocket
+	rm *.o 
