@@ -1,6 +1,28 @@
-# c-application
+# Simulator for client-server architecture
 
-## Project setup
+<div align="center"> 
+<img src="https://github.com/ranizouaoui/Simulator-for-client-server-architecture/blob/main/thumbnail.png" alt="" />
+ </div>
+
+## Preface
+Our solution ensures communication between clients and server via two named pipes. We have synchronized the application with the signals that wake up the client and the server upon receipt of messages. Our solution also provides client-server communication via sockets in parallel mode on the server side. The manipulation of the different architectures is done through a graphical interface which is made with the “Vue.Js” framework. The communication between the interface and the outputs of the C programs is done through a server that I have implemented with the “Express.Js” tool.
+We used the “Shell.Js” tool, which allows us to execute “Shell” commands On a “Node.Js” environment, to launch the executables and retrieve the outputs of C programs
+
+<h4> Why I chose Vuejs framework? </h4>
+
+Simply, vuejs has a big community, especially vuejs and Nodejs. Vue js is widely used all over the world. Do you know that Nentendre website, Gitlab, Laracast, Laravel Vapor and other well-known sites are developed with vuejs.
+
+This is definitely the framework I recommend for frontend development.
+
+## Install
+
+Perform the following steps:
+
+1- Download and install <a href="https://nodejs.org/en/">Node.js</a>.<br/>
+2- Download and install <a href="https://nodejs.org/en/">Visual Studio Code(VS Code)</a>.<br/>
+3- Install vetur extension for VS Code.<br/>
+4- Clone this repository.<br/>
+5- Download and install npm packages.<br/>
 ```
 npm install
 ```
@@ -19,6 +41,8 @@ npm run build
 ```
 npm run lint
 ```
+## Project Map
+<div align="center"> 
+<img src="https://github.com/ranizouaoui/Simulator-for-client-server-architecture/blob/main/Project-Map.png" alt="" />
+ </div>
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
