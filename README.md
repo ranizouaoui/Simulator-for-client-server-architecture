@@ -27,22 +27,31 @@ Perform the following steps:
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## How to launch the app ?
+
 ```
+cd Code/web-application/backend
+node server.js
+cd Code/web-application/frontend
 npm run serve
 ```
 
-### Compiles and minifies for production
+## Compiles and minifies for production
 ```
+cd Code/web-application/frontend
 npm run build
 ```
 
-### Lints and fixes files
+## Lints and fixes files
 ```
+cd Code/web-application/frontend
 npm run lint
 ```
 ## Project Map
 <div align="center"> 
 <img src="https://github.com/ranizouaoui/Simulator-for-client-server-architecture/blob/main/Project-Map.png" alt="" />
  </div>
+ 
+## Want more details?
 
+For more details or if you can recommend me for other projects. Just contact me on my email: <strong> ranizouaouicontact@gmail.com </strong>
