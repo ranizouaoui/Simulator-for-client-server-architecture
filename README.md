@@ -1,4 +1,4 @@
-# Simulator for client-server architecture
+## Project Setup
 
 <div align="center"> 
 <img src="https://github.com/ranizouaoui/Simulator-for-client-server-architecture/blob/main/thumbnail.png" alt="" />
@@ -22,13 +22,16 @@ Perform the following steps:
 3- Install vetur extension for VS Code.<br/>
 4- Clone this repository.<br/>
 5- Download and install npm packages.<br/>
-```
+```bash
+cd Code/web-application/backend
 npm install
+cd Code/web-application/frontend
+npm run serve
 ```
 
 ## How to launch the app ?
 
-```
+```bash
 cd Code/web-application/backend
 node server.js
 cd Code/web-application/frontend
@@ -36,13 +39,13 @@ npm run serve
 ```
 
 ## Compiles and minifies for production
-```
+```bash
 cd Code/web-application/frontend
 npm run build
 ```
 
 ## Lints and fixes files
-```
+```bash
 cd Code/web-application/frontend
 npm run lint
 ```
