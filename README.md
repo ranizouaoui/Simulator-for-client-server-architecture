@@ -26,7 +26,7 @@ Perform the following steps:
 cd Code/web-application/backend
 npm install
 cd Code/web-application/frontend
-npm run serve
+npm install
 ```
 
 ## How to launch the app ?
