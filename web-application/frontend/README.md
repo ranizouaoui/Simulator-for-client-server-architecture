@@ -1,6 +1,5 @@
-# c-application
+# frontend setup
 
-## Project setup
 ```
 npm install
 ```
